@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=a, initial-scale=1.0">
+    <title>Portfolio </title>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.3.1/cjs/react-dom.production.min.js"> 
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@iconscout/unicons@4.0.8/css/line.min.css">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+<body class="body">
+   <div class="container">
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-menu">Logo</p>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+               
+                <li class="nav_list">
+                    <a href="#home" class="nav-link">Home</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#project" class="nav-link">Project</a>
+                    <div class="circle"></div>
+                </li>
+
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link ">Contact</a>
+                    <div class="circle"></div>
+                </li>
+
+            </ul>
+        </div>
+  
+<!-- Dark Mode -->
+<div class="mode">
+    <div class="moon-sun" id="toogle-switch">
+        <i class="fa fa-moon" id="moon"></i>
+        <i class="fa fa-sun" id="sun"></i>
+    </div>
+</div>
+ 
+<div class="nav-menu-btn">
+    <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+</div>
+</nav>
+
+
+<!-- main -->
+<main class="wrapper">
+    <section class="featured-box" id="home">
+        <div class="featured-text">
+        <div class="hello">
+            <p>Hello I am</p>
+        </div>
+
+        <div class="featured-name">
+        <span class="typedText"></span>
+        </div>
+
+        <div class="text-info">
+            <p> My name is Satya Prakash I am a Coder</p>
+        </div>
+
+        <div class="text-btn">
+            <button class="btn">Hire Me</button>  <!--btn hire-btn-->
+            <a href ="https://drive.google.com/file/d/1YdDWVrtohHWwHesMU5I09f-2EtS_pzZM/view?usp=sharing"><button class="btn" >Download CV <i class="uil uil-file"></i></button></a>
+        </div>
+        <div class="socical_icons">
+            <div class="icon_circle"></div>
+            <div class="icon"><a href="https://www.instagram.com/__ig__satya_/"><i class="uil uil-instagram"></i></a></div>
+            <div class="icon"><a href="https://www.linkedin.com/in/satya-prakash-284358256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="uil uil-linkedin-alt"></i></a></div> <!-- fa-brands fa-linkedin-in icon -->
+            <div class="icon"> <i class="uil uil-behance-alt"></i></div>
+            <div class="icon"><a href="https://github.com/Hii-Satya"> <i class="uil uil-github-alt"></a></i></div>
+            </div>
+        </div>
+        
+        <div class="featured-image">
+            <div class="image">
+                <img src="profile.jpg" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <!-- about  -->
+<section class="section " id="about">
+<div class="top-headessr">
+    <h1>About me</h1>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="about-me">
+            <figcaption>
+                <img src="profile.jpg" alt="" class="profile" >
+            <h2>Web Devloper</h2>
+            <p>My name is Satya Prakash I am a Coder</p>
+            </figcaption>
+            <button class="about-me-btn">Hire Me</button>
+        </div>
+    </div>
+
+    <div class="skill">
+        <div class="skill-box">
+            <span class="title">C++</span>
+            <div class="skill-bar">
+                <span class="skill-per c">
+                   <span class="tooltip">90%</span> 
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Html</span>
+            <div class="skill-bar ">
+                <span class="skill-per html">
+                   <span class="tooltip">80%</span> 
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">CSS</span>
+            <div class="skill-bar ">
+                <span class="skill-per css">
+                   <span class="tooltip">70%</span> 
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">Python</span>
+            <div class="skill-bar">
+                <span class="skill-per python">
+                   <span class="tooltip">70%</span> 
+                </span>
+            </div>
+        </div>
+
+        <div class="skill-box">
+            <span class="title">JavaScript</span>
+            <div class="skill-bar">
+                <span class="skill-per javascript">
+                   <span class="tooltip">50%</span> 
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- Projectbox -->
+<section class="section" id="projects">
+<div class="top-header">
+    <h1>Projects</h1>
+
+</div>
+<div class="project-container">
+    <div class="project-box">
+        <i class="uil uil-briefcase-alt"></i>
+        <h3>2+ Completed </h3>
+        <label></label>
+    </div>
+
+    <div class="project-box">
+        <i class="uil uil-award"></i>
+        <h3>Experience</h3>
+        <label>Fresher</label>
+    </div>
+</div>
+</section>
+
+<!--  Contact-->
+<section class="section" id="contact">
+<div class="top-header">
+    <h1>Let's Work Together</h1>
+    <span> Lets create a project</span>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="contact-info">
+            <h2>Find me<i class="uil uil-corner-right-down"></i></h2>
+            <p><i class="uil uil-envelope">Email:iamsatyaprakash27@gmail.com</i></p>
+        <p><i class="uil uil-phone">Phone : 7461905553</i></p>
+        </div>
+    </div>
+    <div class="col">
+        <div class="form-control">
+            <div class="form-inputs">
+                <input type="text" class="input-field" placeholder="Your Name">
+                <input type="text" class="input-field" placeholder="Your Email">
+            </div>
+            <div class="text-area">
+                <input type="text" class="input-subject" placeholder="Subject">
+                <textarea placeholder="Message"></textarea>
+            </div>
+
+            <div class="form-button">
+                <button class="btn">  <a href="mailto:iamsatyaprakash27@gmail.com">Send <i class="uil uil-message"></a></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+</main>
+
+<!-- Footer -->
+ <footer>
+    <div class="middle-footer">
+        <ul class="footer-menu">
+         <li class="footer-menu-list">
+            <a href="#home">Home</a>
+         </li> 
+         
+         <li class="footer-menu-list">
+            <a href="#about">About</a>
+         </li> 
+         
+         <li class="footer-menu-list">
+            <a href="#project">Project</a>
+         </li> 
+
+         <li class="footer-menu-list">
+            <a href="#contact">Contact</a>
+         </li> 
+
+        </ul>
+    </div>
+
+    <div class="footer-social-icons">
+        <div class="icon"><a href="https://www.instagram.com/__ig__satya_/"> <i class="uil uil-instagram"></i></a></div>
+        <div class="icon"><a href="https://www.linkedin.com/in/satya-prakash-284358256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"> <i class="uil uil-linkedin-alt"></i></a></div> <!-- fa-brands fa-linkedin-in icon -->
+        <div class="icon"> <i class="uil uil-behance-alt"></i></div> 
+        <div class="icon"><a href="https://github.com/Hii-Satya"> <i class="uil uil-github-alt"></a></i></div>
+    </div>
+    <div class="bottom-footer">
+        <p> Copyright &copy; <a href="#home" style="text-decoration: none;"> Satya</a> All rights are reserved</p>
+    </div>
+ </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
+<script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js"></script>
+</body>
+</html>
